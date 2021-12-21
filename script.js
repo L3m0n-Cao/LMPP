@@ -1355,7 +1355,7 @@ Rect.prototype.contains = function(x, y) {
 ////////////////////////////////////////////////////////////////
 
 	var channel_id = decodeURIComponent(window.location.hash.substr(1)) || "lobby";
-	var gClient = new Client("wss://multiplayerpianoserver.l3m0n-cao.repl.co");
+	var gClient = new Client("wss://mpp.lesent.me");
 	gClient.setChannel(channel_id);
 	gClient.start();
 //wss and replit sucks, wait HEY WHY ARE YOU HERE???
